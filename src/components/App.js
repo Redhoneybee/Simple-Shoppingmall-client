@@ -1,9 +1,10 @@
 import React from "react";
 
+import AppRouter from "./Router";
 const App = () => {
     return (
         <>
-            <span>React</span>
+            <AppRouter />
         </>
     );
 }
