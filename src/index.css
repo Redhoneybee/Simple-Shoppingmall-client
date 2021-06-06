@@ -49,19 +49,20 @@ nav.gnb .list-more__btn svg{
 }
 
 nav.gnb{
-    border-bottom : 1px solid rgba(0, 0, 0, 0.15);
-}
-
-nav.gnb .list{
-    display : inline-flex;
-}
-
-.list li {
     display : flex;
-    align-items : center;
-    padding : 5px 3px;
+    justify-content: flex-start;
+    border-bottom : 1px solid rgba(0, 0, 0, 0.15);
+    padding : 10px 0;
 }
 
+nav.gnb .list-cover{
+    overflow : hidden;
+}
+
+.list-cover .slick-track{
+    display : inline-flex;
+    text-align : center;
+}
 
 /* home */
 /* main-section  */
